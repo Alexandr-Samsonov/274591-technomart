@@ -8,22 +8,19 @@
     <header class="main-header">
       <div class="top-header">
         <div class="container">
-          <img class="logo" src="index.html" weidth="" height="" alt="Техномарт">
-          <form class="search" name="search" method="get">  
+          <div class="logo">
+            <p>Техномарт</p>
+          </div>
+          <form class="search" name="search" method="get">
+            <a class="search-img" href="#">Поиск</a>
             <label class="search-label">
       	      Поиск:
       	      <input type="text" name="search">
-      	    </label>
+      	    </label>  
           </form>
-          <span class="bookmarks">
-      	    <a href="">Закладки</a>
-      	  </span>
-      	  <span class="basket">
-      	    <a href="">Корзина</a>
-      	  </span>
-      	  <span class="checkout">
-      	    <a href="">Оформить заказ</a>
-      	  </span>
+          <a class="bookmarks" href="">Закладки</a>
+          <a class="basket" href="">Корзина</a>
+          <a class="checkout" href="">Оформить заказ</a>
         </div>
       </div>
       <div class="container">
@@ -42,9 +39,8 @@
         </div>
         <div class="profile">
           <div class="user-name">
-            <a href="">
-              <h2>Равшан Джамшутович</h2>
-            </a>
+            <a class="name-lastname" href="">Равшан Джамшутович</a>
+            <a class="exit" href="">Выход</a>
           </div>
           <a class="user-link" href="">Мои заказы</a>
           <a class="user-link" href="">Личный кабинет</a>
@@ -81,7 +77,7 @@
         <nav class="breadcrumbs">
           <ul>
           	<li>
-          	  <a href="index.html"><img src="" height="" weight=""></a>
+          	  <a class="breadcrumbs-home" href="index.html">Главная</a>
           	</li>
           	<li>
           	  <a href="#">Каталог</a>
@@ -100,46 +96,48 @@
         <div class="block-content">
           <div class="content-left">
           	<div class="content-name">
-          	  <p>Фильтр:</p>
+          	  <p class="content-text">Фильтр:</p>
           	</div>
           	<h3>Цена:</h3>
           	<div class="scroll">
-          		
+          		<div></div>
+              <div>0</div>
+              <div>30000</div>
           	</div>
-          	<hr>
           	<form name="filters" method="get">
           	  <h3>Производители:</h3>
           	  <input type="checkbox" id="bosch" name="bosch">
           	  <label for="bosch">Bosch</label>
-			  <input type="checkbox" id="interscol" name="interscol">
-			  <label for="interscol">Интерскол</label>
-			  <input type="checkbox" id="makita" name="makita">
-			  <label for="makita">Makita</label>
-			  <input type="checkbox" id="dewalt" name="dewalt">
-			  <label for="dewalt">Dewalt</label>
-			  <input type="checkbox" id="hitachi" name="hitachi">
-			  <label for="hitachi">Hitachi</label>
-			  <hr>
-			  <h3>Питание:</h3>
-			  <input type="radio" value="radio-one" name="sort" id="battery">
-			  <label for="battery">Аккумуляторные</label>
-			  <input type="radio" value="radio-second" name="sort" id="net">
-			  <label for="net">Сетевые</label>
-			  <input type="submit" value="Показать">
+			        <input type="checkbox" id="interscol" name="interscol">
+			        <label for="interscol">Интерскол</label>
+			        <input type="checkbox" id="makita" name="makita">
+			        <label for="makita">Makita</label>
+			        <input type="checkbox" id="dewalt" name="dewalt">
+			        <label for="dewalt">Dewalt</label>
+			        <input type="checkbox" id="hitachi" name="hitachi">
+			        <label for="hitachi">Hitachi</label>
+			        <h3>Питание:</h3>
+			        <input type="radio" value="radio-one" name="sort" id="battery">
+			        <label for="battery">Аккумуляторные</label>
+			        <input type="radio" value="radio-second" name="sort" id="net">
+			        <label for="net">Сетевые</label>
+			        <input type="submit" value="Показать">
           	</form>
           </div>
           <div class="right-content">
             <div class="content-name">
-              <p>Сортировка:</p>
-              <span class="name-sort">
+              <p class="content-text">Сортировка:</p>
+              <a class="name-sort" href="#">
               	По цене
-              </span>
-              <span class="name-sort">
+              </a>
+              <a class="name-sort" href="#">
               	По типу
-              </span>
-              <span class="name-sort">
+              </a>
+              <a class="name-sort" href="#">
               	По функционалу
-              </span>
+              </a>
+              <a class="up" href="#"></a>
+              <a class="down" href="#"></a>
             </div>
             <div class="goods-item">
               <ul>
@@ -148,7 +146,7 @@
               	    <img src="" weidth="" height="">
                     <p>Перфоратор Bosch bfg 3000</p>
                     <p>22500 Р.</p>
-                    <span class="popular-goods-price">15500 Р.</span>
+                    <p class="popular-goods-price">15500 Р.</p>
               	  </article>
               	</li>
               	<li class="popular-goods-item">
@@ -156,14 +154,14 @@
               	    <img src="" weidth="" height="">
                     <p>Перфоратор Bosch bfg 6000</p>
                     <p>30500 Р.</p>
-                    <span class="popular-goods-price">25500 Р.</span>
+                    <p class="popular-goods-price">25500 Р.</p>
               	  </article>
               	</li>
               	<li class="popular-goods-item">
               	  <article>
               	    <img src="" weidth="" height="">
                     <p>Перфоратор Bosch bfg 2000</p>
-                    <span class="popular-goods-price">12500 Р.</span>
+                    <p class="popular-goods-price">12500 Р.</p>
               	  </article>
               	</li>
               	<li class="popular-goods-item">
@@ -171,7 +169,7 @@
               	    <img src="" weidth="" height="">
                     <p>Перфоратор Bosch bfg 3000</p>
                     <p>22500 Р.</p>
-                    <span class="popular-goods-price">15500 Р.</span>
+                    <p class="popular-goods-price">15500 Р.</p>
               	  </article>
               	</li>
               	<li class="popular-goods-item">
@@ -179,14 +177,14 @@
               	    <img src="" weidth="" height="">
                     <p>Перфоратор Bosch bfg 6000</p>
                     <p>30500 Р.</p>
-                    <span class="popular-goods-price">25500 Р.</span>
+                    <p class="popular-goods-price">25500 Р.</p>
               	  </article>
               	</li>
               	<li class="popular-goods-item">
               	  <article>
               	    <img src="" weidth="" height="">
                     <p>Перфоратор Bosch bfg 2000</p>
-                    <span class="popular-goods-price">12500 Р.</span>
+                    <p class="popular-goods-price">12500 Р.</p>
               	  </article>
               	</li>
               	<li class="popular-goods-item">
@@ -194,7 +192,7 @@
               	    <img src="" weidth="" height="">
                     <p>Перфоратор Bosch bfg 3000</p>
                     <p>22500 Р.</p>
-                    <span class="popular-goods-price">15500 Р.</span>
+                    <p class="popular-goods-price">15500 Р.</p>
               	  </article>
               	</li>
               	<li class="popular-goods-item">
@@ -202,14 +200,14 @@
               	    <img src="" weidth="" height="">
                     <p>Перфоратор Bosch bfg 6000</p>
                     <p>30500 Р.</p>
-                    <span class="popular-goods-price">25500 Р.</span>
+                    <p class="popular-goods-price">25500 Р.</p>
               	  </article>
               	</li>
               	<li class="popular-goods-item">
               	  <article>
               	    <img src="" weidth="" height="">
                     <p>Перфоратор Bosch bfg 2000</p>
-                    <span class="popular-goods-price">12500 Р.</span>
+                    <p class="popular-goods-price">12500 Р.</p>
               	  </article>
               	</li>
               </ul>
@@ -232,6 +230,20 @@
           	</li>
           </ul>
         </div>
+        <div class="minibuy">
+          <a class="minibuy-buy" href="#">Купить</a>
+          <a class="minibuy-bookmarks" href="#">В закладки</a>
+        </div>
+        <div class="message">
+          <div>
+            <img src="#">
+            <p class="message-caption">Товар добавлен в корзину</p>
+          </div>
+          <div>
+            <a class="" href="#">Оформить заказ</a>
+            <a class="" href="#">Продолжить покупки</a> 
+          </div>
+        </div>
       </div>
       <div class="main-bottom">
       	<div class="container">
@@ -246,45 +258,51 @@
     <footer>
       <div class="top-footer">
         <div class="container">
-          <img src="" weight="" height="" alt="Техномарт">
-          <div class="footer-main-nav">
-            <ul>
-              <li>
-                <a href="#">Компания</a>
-              </li>
-              <li>
-                <a href="#">Новости</a>
-              </li>
-              <li>
-                <a href="#">Каталог</a>
-              </li>
-              <li>
-                <a href="#">Доставка</a>
-              </li>
-              <li>
-                <a href="#">Контакты</a>
-              </li>
-            </ul>
+          <div class="top-footer-block1">
+            <div class="logo">
+              <p>Техномарт</p>
+            </div>
+            <nav class="footer-main-nav">
+              <ul>
+                <li>
+                  <a href="#">Компания</a>
+                </li>
+                <li>
+                  <a href="#">Новости</a>
+                </li>
+                <li>
+                  <a href="#">Каталог</a>
+                </li>
+                <li>
+                  <a href="#">Доставка</a>
+                </li>
+                <li>
+                  <a href="#">Контакты</a>
+                </li>
+              </ul>
+            </nav>
           </div>
-          <p>
-            г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
-            +7 (812) 555-05-55
-          </p>
-          <div class="footer-promo-nav">
-            <ul>
-              <li>
-                <a href="#">Материалы</a>
-              </li>
-              <li>
-                <a href="#">Техника</a>
-              </li>
-              <li>
-                <a href="#">Инструменты</a>
-              </li>
-              <li>
-                <a href="#">Спецпредложения</a>
-              </li>
-            </ul>
+          <div class="top-footer-block2">
+            <p>
+              г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8
+              +7 (812) 555-05-55
+            </p>
+            <nav class="footer-promo-nav">
+              <ul>
+                <li>
+                  <a href="#">Материалы</a>
+                </li>
+                <li>
+                  <a href="#">Техника</a>
+                </li>
+                <li>
+                  <a href="#">Инструменты</a>
+                </li>
+                <li>
+                  <a href="#">Спецпредложения</a>
+                </li>
+              </ul>
+            </nav>
           </div> 
         </div>
       </div>
@@ -301,7 +319,7 @@
           </section>
           <section class="footer-copyright">
             <p>Обратная связь:</p>
-            <a class="link-copyright" href="mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+            <a class="link-copyright" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
             <p>Разработано - </p>
             <a class="link-copyright" href="https://htmlacademy.ru">htmlacademy.ru</a>
           </section>
