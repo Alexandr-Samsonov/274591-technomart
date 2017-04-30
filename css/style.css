@@ -6,6 +6,275 @@ body {
 	color: rgba(0, 0, 0);
 }
 
+.clearfix::after {
+	content: "";
+	
+	display: table;
+	clear: both;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+.logo {
+	float: left;
+	width: 220px;
+}
+
+.search {
+	float: left;
+	width: 90px;
+	margin-left: 10px;
+	margin-right: 150px;
+}
+
+.bookmarks {
+	float: left;
+	width: 140px;
+	margin-right: 20px;
+}
+
+.basket {
+	float: left;
+	width: 140px;
+	margin-right: 10px;
+}
+
+.checkout {
+	float: right;
+	width: 150px;
+}
+
+.info {
+	float: left;
+	width: 220px;
+	margin-left: 45px;
+}
+
+.adress-block {
+	float: left;
+	width: 310px;
+	margin-left: 10px;
+}
+
+.user-block {
+	float: right;
+	width: 300px;
+	margin-left: 20px;
+}
+
+.main-navigation {
+	width: 940px;
+}
+
+.top-promo-block {
+	width: 940px;
+	margin-top: 60px;
+}
+
+.materials {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+}
+
+.instruments {
+	float: left;
+	width: 300px;
+	margin-right: 20px;
+}
+
+.equipment {
+	float: right;
+	width: 300px;
+}
+
+.bottom-promo-block {
+	width: 940px;
+}
+
+.slider {
+	float: left;
+	width: 600px;
+}
+
+.right-promo-block {
+	float: right;
+	width: 300px;
+	margin-left: 20px;
+}
+
+.popular-goods {
+	margin-top: 55px;
+}
+
+.top-block-index {
+	width: 940px;
+	height: 90px;
+}
+
+.title-teaser {
+	float: left;
+	width: 400px;
+	padding-left: 30px;
+}
+
+.btn-top-popular {
+	float: right;
+	width: 255px;
+	margin-right: 25px;
+}
+
+.goods {
+	margin-top: 20px;
+}
+
+
+.popular-goods-item {
+	float: left;
+	width: 220px;
+	margin-right: 5px;
+}
+
+.popular-goods-item:last-child {
+	float: right;
+	width: 220px;
+}
+
+.manufacturer {
+	width: 940px;
+	margin-top: 20px;
+}
+
+.manufacturer-item {
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+}
+
+.manufacturer-item:nth-child(4) {
+	float: right;
+	width: 220px;
+	margin-right: 0px;
+}
+
+.manufacturer-item:nth-child(8) {
+	float: right;
+	width: 220px;
+	margin-right: 0px;
+}
+
+.services-content {
+	width: 400px;
+}
+
+.nav-block-services {
+	float: left;
+	width: 240px;
+	margin-right: 80px;
+}
+
+.slider-services {
+	float: right;
+	width: 620px;
+}
+
+.company-info {
+	float: left;
+	width: 540px;
+}
+
+.contacts {
+	float: right;
+	width: 300px;
+}
+
+.write-us {
+	display: none;
+}
+
+.footer-logo {
+	float: left;
+	width: 220px;
+	margin-right: 170px;
+}
+
+.footer-main-nav {
+	float: right;
+	width: 550px;
+}
+
+.footer-block2-addres {
+	float: left;
+	width: 380px;
+	margin-right: 20px;
+}
+
+.footer-promo-nav {
+	float: right;
+	width: 540px;
+}
+
+.footer-left {
+	float: left;
+	width: 240px;
+	margin-right: 140px;
+}
+
+.footer-social {
+	float: left;
+	width: 160px;
+	margin-right: 60px;
+}
+
+.footer-copyright {
+	float: right;
+	width: 320px;
+	margin-right: 0px;
+}
+
+.copyright-link1 {
+	float: left;
+	width: 160px;
+}
+
+.copyright-link2 {
+	float: right;
+	width: 140px;
+}
+
+.content-left {
+	float: left;
+	width: 220px;
+	margin-right: 20px;
+}
+
+.right-content {
+	float: right;
+	width: 700px;
+}
+
+.popular-goods-item {
+	float: left;
+	width: 220px;
+}
+
+.navigation-page {
+	width: 300px;
+	margin-left: 240px;
+}
+
+.minibuy {
+	display: none;
+}
+
+.message {
+	display: none;
+}
+
 .title-goods {
 	font-family: "Cuprum", "Arial", serif;
 	font-size: 30px;
