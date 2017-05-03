@@ -132,6 +132,10 @@ body {
 	margin-top: 20px;
 }
 
+.goods ul {
+	padding-left: 0px;
+}
+
 
 .popular-goods-item {
 	float: left;
@@ -252,14 +256,35 @@ body {
 	margin-right: 20px;
 }
 
+.content-left form input {
+	display: block;
+}
+
 .right-content {
 	float: right;
 	width: 700px;
 }
 
+.goods-item ul {
+	padding-left: 0px;
+}
+
 .popular-goods-item {
 	float: left;
 	width: 220px;
+	margin-right: 20px;
+}
+
+.popular-goods-item:nth-child(3) {
+	margin-right: 0px;
+}
+
+.popular-goods-item:nth-child(6) {
+	margin-right: 0px;
+}
+
+.popular-goods-item:nth-child(9) {
+	margin-right: 0px;
 }
 
 .navigation-page {
